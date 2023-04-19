@@ -1,3 +1,6 @@
+#ifndef GENERATEPROGRAM_H
+#define GENERATEPROGRAM_H
+
 #include <memory>
 
 #include "classunit.h"
@@ -25,3 +28,6 @@ QString generateProgram() {
     myClass.add( method, ClassUnit::PROTECTED );
     return myClass.compile();
 }
+
+
+#endif // GENERATEPROGRAM_H

@@ -18,11 +18,12 @@ SOURCES += main.cpp \
     unit.cpp \
     classunit.cpp \
     methodunit.cpp \
-    printoperatorunit.cpp \
-    generateprogram.cpp
+    printoperatorunit.cpp
 
 HEADERS += \
     unit.h \
     classunit.h \
     methodunit.h \
-    printoperatorunit.h
+    printoperatorunit.h \
+    generateprogram.h \
+    consoleoutput.h

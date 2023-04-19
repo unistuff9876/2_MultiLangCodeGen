@@ -1,5 +1,8 @@
 #include "classunit.h"
 
+const QVector< QString > ClassUnit::ACCESS_MODIFIERS =
+    { "public", "protected", "private" };
+
 ClassUnit::ClassUnit(const QString &name) : m_name( name ) {
     m_fields.resize( ACCESS_MODIFIERS.size() );
 }

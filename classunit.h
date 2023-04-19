@@ -25,7 +25,4 @@ private:
     QVector< Fields > m_fields;
 };
 
-const QVector< QString > ClassUnit::ACCESS_MODIFIERS =
-    { "public", "protected", "private" };
-
 #endif // CLASSUNIT_H
